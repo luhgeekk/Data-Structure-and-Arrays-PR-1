@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascript Objects, Data Structure and Arrays</h2>
+    <script>
+        var me = {
+            name: "Minal",
+            age: "15 years old",
+            hobbies: "ice-skating, drawing and baking.",
+
+        };
+
+        var birds = [" Eurasian Magpie ", "Rose-breasted cockatoo ", "Hooded crow ", "Ring-necked parakeet ", "Strawberry finch."];
+
+        document.write("Hi! My name is " , me.name , " I am " , me.age , " and I like " , me.hobbies )
+
+        document.write("<br> Before popping the birds are," +birds.join("*"));
+
+        document.write("<br>My favourite bird is the " +birds[2]);
+
+        birds.pop();
+        document.write("<br>After popping birds are," , birds.join("^"))
+
+        
+    </script>
+</body>
+</html>
